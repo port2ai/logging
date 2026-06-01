@@ -12,6 +12,8 @@ High-level record of setup and administrative work for the `port2ai` effort.
 - Changed `port2ai/port2ai` from private to public.
 - Created starter project organization for research, work tracking, and templates.
 - Created and pushed the dedicated public `logging` repository for admin setup records.
+- Created the first formal prospect package, `Prospect-FL-26-001`, for a Proxmox SDN/BGP integration opportunity.
+- Produced client-facing planning artifacts, including a submission plan, flow chart, PowerPoint deck, and GitHub-viewable PDF.
 
 ## Repository Map
 
@@ -21,6 +23,53 @@ High-level record of setup and administrative work for the `port2ai` effort.
 | `logging` | `/Users/000port2ai000/logging` | `https://github.com/port2ai/logging` | Administrative work log |
 
 ## Date Log
+
+### 2026-05-31
+
+- Reviewed a Freelancer opportunity for Proxmox SDN/BGP integration work and assessed it as a viable prospect if handled with controlled discovery, route-safety checks, and clear rollback planning.
+- Created the prospect workspace folder now named `Prospect-FL-26-001` in the main `port2ai` repo.
+- Drafted `submission-plan.md` for the prospect, including:
+  - client clarification questions
+  - proposed submission message
+  - delivery goals
+  - requirements coverage plan
+  - phased work plan
+  - estimated timeline and level of effort
+  - access requirements
+  - acceptance criteria
+  - risks and mitigations
+  - optional enhancements
+  - fixed-scope milestone suggestions
+- Added hierarchical numbering to the submission plan so client discussions can refer to exact items.
+- Added an `AI-Staff Work Disclaimer` header and clarified that GF will use Codex Pro only in a supervised and controlled manner for planning, solution approaches, documentation, validation checklists, and implementation support materials.
+- Clarified in the plan that GF owns remote access discovery, production implementation, configuration changes, testing, validation, and client-facing technical decisions.
+- Reorganized clarification questions into logical categories:
+  - environment and Proxmox scope
+  - routing, peering, and network design
+  - existing configuration, security, and operations
+  - access and deliverable expectations
+  - data privacy and control
+  - timeline, urgency, and schedule tolerance
+- Added data privacy/control questions covering information that must not be shared into Codex Pro and must be obscured, such as public IP addresses, DNS names, hostnames, customer names, credentials, keys, configs, logs, route tables, account IDs, and other sensitive identifiers.
+- Added timeline/urgency questions to clarify required completion dates, business urgency, maintenance windows, change-control limits, and tolerance for schedule slip.
+- Created `work-phases-flowchart.svg` and exported `work-phases-flowchart.jpg` showing the five work phases and estimated level of effort.
+- Created an 8-slide client-facing PowerPoint deck, `proxmox-sdn-bgp-integration-proposal.pptx`, from the prospect plan and flow chart.
+- Rendered and checked the PowerPoint deck for layout issues before saving the final `.pptx`.
+- Exported the deck to `proxmox-sdn-bgp-integration-proposal.pdf` so GitHub can display the proposal directly in-browser.
+- Corrected the prospect folder name from `prospect-26-001` to `Prosptect-FL-26-001`, then corrected the typo to `Prospect-FL-26-001`.
+- Mirrored prospect artifacts between the GitHub-connected repo at `/Users/000port2ai000` and the Documents checkout at `/Users/greg/Documents/port2ai`.
+- Pushed the following main `port2ai` commits to `origin/main`:
+  - `c5056de Add Proxmox SDN BGP prospect plan`
+  - `757e8b5 Number Proxmox prospect plan outline`
+  - `a358796 Add Proxmox work phases flow chart`
+  - `00584b0 Add Proxmox proposal deck`
+  - `fbbe140 Clarify GF and Codex Pro roles in prospect plan`
+  - `deccb3d Rename prospect folder`
+  - `bf18c3c Correct prospect folder spelling`
+  - `3429082 Add PDF export of Proxmox proposal deck`
+  - `47033a1 Update prospect disclaimer to AI-Staff`
+  - `5e75629 Add urgency clarification questions`
+  - `4177511 Refine disclaimer and clarification categories`
 
 ### 2026-05-30
 
